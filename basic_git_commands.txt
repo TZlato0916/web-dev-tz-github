@@ -1,0 +1,26 @@
+git --version
+Initiate Git repository : git init
+git status
+git add <file>  //puts file to staging area
+//To set Author
+git config --global user.name "Tatyana"
+git config --global user.email "tatyana.zlatokrylova@abc.com"
+
+//To edit author info
+git config --global --edit
+
+//To exit edit mode press Esc then : , and then q!  or wq!  (as in Unix)
+
+//To view authoe info
+git config --global user.name
+git config --global user.email
+
+//To commit changes
+git commit -m "Your massage here"
+
+//To view log
+git log
+
+//If you need to add to staging area and commit more than one file
+git add .
+git commit -m "One file modified and added the new one"

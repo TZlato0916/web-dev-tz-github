@@ -1,1 +1,2 @@
 This is my first commit!
+Today I am learning the basic git commands. #2 commit

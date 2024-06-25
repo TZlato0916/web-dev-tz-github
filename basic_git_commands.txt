@@ -33,3 +33,8 @@ git branch -m main
 
 //To create a new branch: feature
 git checkout -b feature
+
+//To merge the feature branch to master
+First step is switch to the master branch:
+git checkout master
+And the run the following command to merge feture branch

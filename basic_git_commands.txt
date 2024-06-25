@@ -38,3 +38,4 @@ git checkout -b feature
 First step is switch to the master branch:
 git checkout master
 And the run the following command to merge feture branch
+git merge feature

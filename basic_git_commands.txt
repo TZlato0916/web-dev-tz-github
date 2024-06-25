@@ -24,3 +24,12 @@ git log
 //If you need to add to staging area and commit more than one file
 git add .
 git commit -m "One file modified and added the new one"
+
+//To see Git branch
+git branch
+
+//To rename Git branch
+git branch -m main
+
+//To create a new branch: feature
+git checkout -b feature
